@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermsAndConditionsViewController" customModule="NotBored" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TWA-Bb-8yg">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="1306"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4nI-p9-yc9">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1306"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="terms and conditions" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GlB-ho-O1n">
+                                    <rect key="frame" x="16" y="100" width="382" height="28"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="20"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Not Bored" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="scq-bD-rDs">
+                                    <rect key="frame" x="16" y="144" width="382" height="41"/>
+                                    <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="30"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WrE-3S-fiJ">
+                                    <rect key="frame" x="24" y="209" width="366" height="1055"/>
+                                    <mutableString key="text">Lorem ipsum dolor sit amet consectetur adipiscing elit inceptos ridiculus iaculis, nullam ligula elementum duis tellus maecenas nec fermentum sed dictum laoreet, taciti donec habitant quam purus ultricies porta posuere sociis. Cubilia senectus netus integer tempor dignissim viverra nostra tellus scelerisque aliquet, semper penatibus tempus sociosqu class sociis bibendum justo etiam, rutrum aenean et eget pretium volutpat eu dictum dictumst.
+Praesent gravida ridiculus cursus luctus maecenas in libero mi interdum, auctor ullamcorper eget nam eros condimentum litora tristique erat, fusce rhoncus mauris cras aptent non et ultricies. Iaculis porttitor etiam pulvinar proin fringilla ad, sem ornare sociosqu ultrices litora himenaeos egestas, eros laoreet mauris leo porta. Nibh interdum facilisis dapibus magnis phasellus tortor fusce nostra quam, ante non elementum himenaeos id hac et hendrerit eros, dui at sollicitudin turpis viverra molestie cras quis.
+Dignissim faucibus auctor in vitae porttitor tellus nascetur tempor sociosqu, elementum dis ultricies eu tempus tincidunt lectus posuere, et ac interdum commodo montes convallis curae facilisis. Vitae diam phasellus litora ad aenean himenaeos, magnis malesuada nec metus faucibus, turpis mollis hac lacinia lacus. Condimentum dis in sed vel molestie integer, gravida eget volutpat interdum bibendum scelerisque magnis, penatibus non sollicitudin convallis egestas. Aptent mi ligula conubia justo habitant cubilia tellus curabitur, a nisi integer non eget vivamus cursus hac, lacus rutrum ridiculus tempor litora nostra dis.
+   
+ Nisl pulvinar taciti tellus diam quam dictum cursus potenti euismod natoque feugiat mattis ornare tortor, aliquam orci dapibus inceptos id egestas ante viverra donec aptent suscipit nulla. Eget nisl fringilla cras felis maecenas nisi ridiculus id conubia hac primis sem ullamcorper porttitor, rutrum ac sodales ultrices vestibulum cum leo semper fusce porta eu fermentum. Proin nisi suspendisse class facilisi curabitur quisque, fusce vulputate semper a nulla velit, duis in orci faucibus turpis. Risus metus magnis aliquam accumsan laoreet congue per, tempus purus et odio senectus sodales vulputate, ligula malesuada dis habitasse nullam pellentesque.</mutableString>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1cG-0N-tfh">
+                                    <rect key="frame" x="353" y="42" width="37" height="38"/>
+                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="plain" title="X">
+                                        <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                    </buttonConfiguration>
+                                </button>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="WrE-3S-fiJ" firstAttribute="leading" secondItem="4nI-p9-yc9" secondAttribute="leading" constant="24" id="3EY-3F-I31"/>
+                                <constraint firstAttribute="trailing" secondItem="GlB-ho-O1n" secondAttribute="trailing" constant="16" id="GU1-dy-Zle"/>
+                                <constraint firstItem="GlB-ho-O1n" firstAttribute="top" secondItem="4nI-p9-yc9" secondAttribute="top" constant="100" id="Kto-TF-d3z"/>
+                                <constraint firstAttribute="bottom" secondItem="WrE-3S-fiJ" secondAttribute="bottom" constant="42" id="Oil-qN-HkI"/>
+                                <constraint firstItem="WrE-3S-fiJ" firstAttribute="top" secondItem="scq-bD-rDs" secondAttribute="bottom" constant="24" id="YNB-E2-mGp"/>
+                                <constraint firstItem="scq-bD-rDs" firstAttribute="top" secondItem="GlB-ho-O1n" secondAttribute="bottom" constant="16" id="b2c-CD-rt4"/>
+                                <constraint firstItem="GlB-ho-O1n" firstAttribute="leading" secondItem="4nI-p9-yc9" secondAttribute="leading" constant="16" id="hLB-BU-bWL"/>
+                                <constraint firstItem="scq-bD-rDs" firstAttribute="leading" secondItem="4nI-p9-yc9" secondAttribute="leading" constant="16" id="pas-tw-N2m"/>
+                                <constraint firstAttribute="trailing" secondItem="WrE-3S-fiJ" secondAttribute="trailing" constant="24" id="rE9-Bh-Ibg"/>
+                                <constraint firstItem="1cG-0N-tfh" firstAttribute="top" secondItem="4nI-p9-yc9" secondAttribute="top" constant="42" id="rcN-ev-Na0"/>
+                                <constraint firstAttribute="trailing" secondItem="1cG-0N-tfh" secondAttribute="trailing" constant="24" id="s9c-9n-DjY"/>
+                                <constraint firstAttribute="trailing" secondItem="scq-bD-rDs" secondAttribute="trailing" constant="16" id="wCK-m1-ajy"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="4nI-p9-yc9" firstAttribute="centerX" secondItem="TWA-Bb-8yg" secondAttribute="centerX" id="9wC-wN-VHe"/>
+                        <constraint firstItem="4nI-p9-yc9" firstAttribute="centerY" secondItem="TWA-Bb-8yg" secondAttribute="centerY" id="Oex-8c-F5V"/>
+                        <constraint firstItem="4nI-p9-yc9" firstAttribute="leading" secondItem="TWA-Bb-8yg" secondAttribute="leading" id="P74-iB-V1O"/>
+                        <constraint firstAttribute="bottom" secondItem="4nI-p9-yc9" secondAttribute="bottom" constant="384" id="tBD-bv-OAj"/>
+                        <constraint firstItem="4nI-p9-yc9" firstAttribute="top" secondItem="TWA-Bb-8yg" secondAttribute="top" id="unI-uT-4N5"/>
+                        <constraint firstAttribute="trailing" secondItem="4nI-p9-yc9" secondAttribute="trailing" id="wca-8j-1FN"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="FhW-oE-wF3"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="paF-fB-Fzs"/>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.99215686319999996" green="0.94509804249999996" blue="0.45098042490000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <constraints>
+                <constraint firstItem="TWA-Bb-8yg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="C54-sw-hIU"/>
+                <constraint firstItem="TWA-Bb-8yg" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="jSA-Sa-tco"/>
+                <constraint firstItem="TWA-Bb-8yg" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="nS9-Ik-mrr"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="99.776785714285708"/>
+        </view>
+    </objects>
+</document>

@@ -9,14 +9,22 @@
 /* Begin PBXBuildFile section */
 		BB3F282928C76DFA00768557 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F282828C76DFA00768557 /* AppDelegate.swift */; };
 		BB3F282B28C76DFA00768557 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F282A28C76DFA00768557 /* SceneDelegate.swift */; };
-		BB3F282D28C76DFA00768557 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F282C28C76DFA00768557 /* ViewController.swift */; };
-		BB3F283028C76DFA00768557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3F282E28C76DFA00768557 /* Main.storyboard */; };
 		BB3F283328C76DFA00768557 /* NotBored.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB3F283128C76DFA00768557 /* NotBored.xcdatamodeld */; };
 		BB3F283528C76DFB00768557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB3F283428C76DFB00768557 /* Assets.xcassets */; };
 		BB3F283828C76DFB00768557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB3F283628C76DFB00768557 /* LaunchScreen.storyboard */; };
 		BB3F284328C76DFB00768557 /* NotBoredTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F284228C76DFB00768557 /* NotBoredTests.swift */; };
 		BB3F284D28C76DFB00768557 /* NotBoredUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F284C28C76DFB00768557 /* NotBoredUITests.swift */; };
 		BB3F284F28C76DFB00768557 /* NotBoredUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F284E28C76DFB00768557 /* NotBoredUITestsLaunchTests.swift */; };
+		BB3F286228C790CA00768557 /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F286028C790CA00768557 /* InitialViewController.swift */; };
+		BB3F286328C790CA00768557 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3F286128C790CA00768557 /* InitialViewController.xib */; };
+		BB3F286828C7937B00768557 /* TermsAndConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB3F286628C7937B00768557 /* TermsAndConditionsViewController.swift */; };
+		BB3F286928C7937B00768557 /* TermsAndConditionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB3F286728C7937B00768557 /* TermsAndConditionsViewController.xib */; };
+		BBE6C8A528C7D3DE00E09218 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8A328C7D3DE00E09218 /* ActivitiesViewController.swift */; };
+		BBE6C8A628C7D3DE00E09218 /* ActivitiesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE6C8A428C7D3DE00E09218 /* ActivitiesViewController.xib */; };
+		BBE6C8A928C7D42F00E09218 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8A728C7D42F00E09218 /* ActivityTableViewCell.swift */; };
+		BBE6C8AA28C7D42F00E09218 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE6C8A828C7D42F00E09218 /* ActivityTableViewCell.xib */; };
+		BBE6C8AD28C7D65700E09218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8AB28C7D65700E09218 /* ViewController.swift */; };
+		BBE6C8AE28C7D65700E09218 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE6C8AC28C7D65700E09218 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +48,6 @@
 		BB3F282528C76DFA00768557 /* NotBored.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotBored.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3F282828C76DFA00768557 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB3F282A28C76DFA00768557 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB3F282C28C76DFA00768557 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB3F282F28C76DFA00768557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB3F283228C76DFA00768557 /* NotBored.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NotBored.xcdatamodel; sourceTree = "<group>"; };
 		BB3F283428C76DFB00768557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB3F283728C76DFB00768557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +57,16 @@
 		BB3F284828C76DFB00768557 /* NotBoredUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotBoredUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB3F284C28C76DFB00768557 /* NotBoredUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotBoredUITests.swift; sourceTree = "<group>"; };
 		BB3F284E28C76DFB00768557 /* NotBoredUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotBoredUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB3F286028C790CA00768557 /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		BB3F286128C790CA00768557 /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
+		BB3F286628C7937B00768557 /* TermsAndConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsViewController.swift; sourceTree = "<group>"; };
+		BB3F286728C7937B00768557 /* TermsAndConditionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsAndConditionsViewController.xib; sourceTree = "<group>"; };
+		BBE6C8A328C7D3DE00E09218 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		BBE6C8A428C7D3DE00E09218 /* ActivitiesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivitiesViewController.xib; sourceTree = "<group>"; };
+		BBE6C8A728C7D42F00E09218 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		BBE6C8A828C7D42F00E09218 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		BBE6C8AB28C7D65700E09218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BBE6C8AC28C7D65700E09218 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +117,11 @@
 		BB3F282728C76DFA00768557 /* NotBored */ = {
 			isa = PBXGroup;
 			children = (
-				BB3F282828C76DFA00768557 /* AppDelegate.swift */,
-				BB3F282A28C76DFA00768557 /* SceneDelegate.swift */,
-				BB3F282C28C76DFA00768557 /* ViewController.swift */,
-				BB3F282E28C76DFA00768557 /* Main.storyboard */,
+				BB3F285F28C7908B00768557 /* Utilities */,
+				BB3F285E28C7906C00768557 /* Activity */,
+				BB3F285D28C7905800768557 /* Activities View Controller */,
+				BB3F285C28C7904000768557 /* Terms and Conditions View Controller */,
+				BB3F285B28C78FBC00768557 /* Initial View Controller */,
 				BB3F283428C76DFB00768557 /* Assets.xcassets */,
 				BB3F283628C76DFB00768557 /* LaunchScreen.storyboard */,
 				BB3F283928C76DFB00768557 /* Info.plist */,
@@ -128,6 +145,53 @@
 				BB3F284E28C76DFB00768557 /* NotBoredUITestsLaunchTests.swift */,
 			);
 			path = NotBoredUITests;
+			sourceTree = "<group>";
+		};
+		BB3F285B28C78FBC00768557 /* Initial View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB3F286028C790CA00768557 /* InitialViewController.swift */,
+				BB3F286128C790CA00768557 /* InitialViewController.xib */,
+			);
+			path = "Initial View Controller";
+			sourceTree = "<group>";
+		};
+		BB3F285C28C7904000768557 /* Terms and Conditions View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BB3F286628C7937B00768557 /* TermsAndConditionsViewController.swift */,
+				BB3F286728C7937B00768557 /* TermsAndConditionsViewController.xib */,
+			);
+			path = "Terms and Conditions View Controller";
+			sourceTree = "<group>";
+		};
+		BB3F285D28C7905800768557 /* Activities View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BBE6C8A328C7D3DE00E09218 /* ActivitiesViewController.swift */,
+				BBE6C8A728C7D42F00E09218 /* ActivityTableViewCell.swift */,
+				BBE6C8A828C7D42F00E09218 /* ActivityTableViewCell.xib */,
+				BBE6C8A428C7D3DE00E09218 /* ActivitiesViewController.xib */,
+			);
+			path = "Activities View Controller";
+			sourceTree = "<group>";
+		};
+		BB3F285E28C7906C00768557 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				BBE6C8AB28C7D65700E09218 /* ViewController.swift */,
+				BBE6C8AC28C7D65700E09218 /* ViewController.xib */,
+			);
+			path = Activity;
+			sourceTree = "<group>";
+		};
+		BB3F285F28C7908B00768557 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BB3F282828C76DFA00768557 /* AppDelegate.swift */,
+				BB3F282A28C76DFA00768557 /* SceneDelegate.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +298,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE6C8AE28C7D65700E09218 /* ViewController.xib in Resources */,
+				BBE6C8A628C7D3DE00E09218 /* ActivitiesViewController.xib in Resources */,
+				BB3F286928C7937B00768557 /* TermsAndConditionsViewController.xib in Resources */,
 				BB3F283828C76DFB00768557 /* LaunchScreen.storyboard in Resources */,
 				BB3F283528C76DFB00768557 /* Assets.xcassets in Resources */,
-				BB3F283028C76DFA00768557 /* Main.storyboard in Resources */,
+				BBE6C8AA28C7D42F00E09218 /* ActivityTableViewCell.xib in Resources */,
+				BB3F286328C790CA00768557 /* InitialViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +329,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB3F282D28C76DFA00768557 /* ViewController.swift in Sources */,
 				BB3F282928C76DFA00768557 /* AppDelegate.swift in Sources */,
+				BBE6C8A528C7D3DE00E09218 /* ActivitiesViewController.swift in Sources */,
 				BB3F283328C76DFA00768557 /* NotBored.xcdatamodeld in Sources */,
 				BB3F282B28C76DFA00768557 /* SceneDelegate.swift in Sources */,
+				BBE6C8A928C7D42F00E09218 /* ActivityTableViewCell.swift in Sources */,
+				BB3F286828C7937B00768557 /* TermsAndConditionsViewController.swift in Sources */,
+				BBE6C8AD28C7D65700E09218 /* ViewController.swift in Sources */,
+				BB3F286228C790CA00768557 /* InitialViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,14 +373,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BB3F282E28C76DFA00768557 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB3F282F28C76DFA00768557 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB3F283628C76DFB00768557 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,9 +508,9 @@
 				DEVELOPMENT_TEAM = WTXWL5T24A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotBored/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = InitialViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,9 +536,9 @@
 				DEVELOPMENT_TEAM = WTXWL5T24A;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NotBored/Info.plist;
+				INFOPLIST_KEY_NSMainNibFile = InitialViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
