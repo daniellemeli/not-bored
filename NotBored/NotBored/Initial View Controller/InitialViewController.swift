@@ -15,6 +15,13 @@ class InitialViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func startButtomTapped(_ sender: Any) {
+        let vc = ActivitiesViewController(nibName: "ActivitiesViewController", bundle: nil)
+        let nav = UINavigationController(rootViewController: vc)
+        nav.modalPresentationStyle = .fullScreen
+        self.present(nav, animated: true)
+    }
+    
     @IBAction func termsButtomTapped(_ sender: Any) {
         let vc = TermsAndConditionsViewController(nibName: "TermsAndConditionsViewController", bundle: nil)
         vc.modalPresentationStyle = .fullScreen
