@@ -8,22 +8,47 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var numberOfParticipants: UILabel!
+    @IBOutlet weak var activityType: UILabel!
+    @IBOutlet weak var activityImage: UIImageView!
+    
+    let viewModel = ActivityViewModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        viewModel.delegate = self
+        getActivity()
+        
     }
-
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func tryAnotherButtonAction(_ sender: Any) {
+        viewModel.getAnotherActivity()
     }
-    */
+    
+}
 
+extension ViewController: ActivityViewModelDelegate {
+    func hideRandomInformations() {
+        activityImage.isHidden = true
+        activityType.isHidden = true
+    }
+    
+    func getRandomActivity(title: String) {
+        activityImage.isHidden = false
+        activityType.isHidden = false
+        activityType.text = title
+    }
+    
+    func getActivity(){
+        DispatchQueue.main.async {
+            self.title = self.viewModel.getAtivityTitle()
+            self.titleLabel.text = self.viewModel.getAtivityInformation()
+            self.priceLabel.text = self.viewModel.getActivityPrice()
+            self.numberOfParticipants.text = self.viewModel.getNumberOfParticipants()
+            self.viewModel.getActivityType()
+        }
+    }
 }

@@ -25,6 +25,11 @@
 		BBE6C8AA28C7D42F00E09218 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE6C8A828C7D42F00E09218 /* ActivityTableViewCell.xib */; };
 		BBE6C8AD28C7D65700E09218 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8AB28C7D65700E09218 /* ViewController.swift */; };
 		BBE6C8AE28C7D65700E09218 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBE6C8AC28C7D65700E09218 /* ViewController.xib */; };
+		BBE6C8B128C7F47400E09218 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8B028C7F47400E09218 /* Service.swift */; };
+		BBE6C8B428C7F4D800E09218 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8B328C7F4D800E09218 /* Activity.swift */; };
+		BBE6C8B628CA75F600E09218 /* InitialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8B528CA75F600E09218 /* InitialViewModel.swift */; };
+		BBE6C8B828CA78A900E09218 /* ActivitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8B728CA78A800E09218 /* ActivitiesViewModel.swift */; };
+		BBE6C8BC28CA7D9A00E09218 /* ActivityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE6C8BB28CA7D9A00E09218 /* ActivityViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +72,11 @@
 		BBE6C8A828C7D42F00E09218 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
 		BBE6C8AB28C7D65700E09218 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BBE6C8AC28C7D65700E09218 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		BBE6C8B028C7F47400E09218 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		BBE6C8B328C7F4D800E09218 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		BBE6C8B528CA75F600E09218 /* InitialViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewModel.swift; sourceTree = "<group>"; };
+		BBE6C8B728CA78A800E09218 /* ActivitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewModel.swift; sourceTree = "<group>"; };
+		BBE6C8BB28CA7D9A00E09218 /* ActivityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +127,8 @@
 		BB3F282728C76DFA00768557 /* NotBored */ = {
 			isa = PBXGroup;
 			children = (
+				BBE6C8B228C7F4CA00E09218 /* Model */,
+				BBE6C8AF28C7F46200E09218 /* Service */,
 				BB3F285F28C7908B00768557 /* Utilities */,
 				BB3F285E28C7906C00768557 /* Activity */,
 				BB3F285D28C7905800768557 /* Activities View Controller */,
@@ -152,6 +164,7 @@
 			children = (
 				BB3F286028C790CA00768557 /* InitialViewController.swift */,
 				BB3F286128C790CA00768557 /* InitialViewController.xib */,
+				BBE6C8B528CA75F600E09218 /* InitialViewModel.swift */,
 			);
 			path = "Initial View Controller";
 			sourceTree = "<group>";
@@ -172,6 +185,7 @@
 				BBE6C8A728C7D42F00E09218 /* ActivityTableViewCell.swift */,
 				BBE6C8A828C7D42F00E09218 /* ActivityTableViewCell.xib */,
 				BBE6C8A428C7D3DE00E09218 /* ActivitiesViewController.xib */,
+				BBE6C8B728CA78A800E09218 /* ActivitiesViewModel.swift */,
 			);
 			path = "Activities View Controller";
 			sourceTree = "<group>";
@@ -181,6 +195,7 @@
 			children = (
 				BBE6C8AB28C7D65700E09218 /* ViewController.swift */,
 				BBE6C8AC28C7D65700E09218 /* ViewController.xib */,
+				BBE6C8BB28CA7D9A00E09218 /* ActivityViewModel.swift */,
 			);
 			path = Activity;
 			sourceTree = "<group>";
@@ -192,6 +207,22 @@
 				BB3F282A28C76DFA00768557 /* SceneDelegate.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BBE6C8AF28C7F46200E09218 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				BBE6C8B028C7F47400E09218 /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		BBE6C8B228C7F4CA00E09218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBE6C8B328C7F4D800E09218 /* Activity.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,12 +360,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBE6C8B428C7F4D800E09218 /* Activity.swift in Sources */,
 				BB3F282928C76DFA00768557 /* AppDelegate.swift in Sources */,
 				BBE6C8A528C7D3DE00E09218 /* ActivitiesViewController.swift in Sources */,
 				BB3F283328C76DFA00768557 /* NotBored.xcdatamodeld in Sources */,
+				BBE6C8BC28CA7D9A00E09218 /* ActivityViewModel.swift in Sources */,
 				BB3F282B28C76DFA00768557 /* SceneDelegate.swift in Sources */,
 				BBE6C8A928C7D42F00E09218 /* ActivityTableViewCell.swift in Sources */,
+				BBE6C8B128C7F47400E09218 /* Service.swift in Sources */,
+				BBE6C8B628CA75F600E09218 /* InitialViewModel.swift in Sources */,
 				BB3F286828C7937B00768557 /* TermsAndConditionsViewController.swift in Sources */,
+				BBE6C8B828CA78A900E09218 /* ActivitiesViewModel.swift in Sources */,
 				BBE6C8AD28C7D65700E09218 /* ViewController.swift in Sources */,
 				BB3F286228C790CA00768557 /* InitialViewController.swift in Sources */,
 			);

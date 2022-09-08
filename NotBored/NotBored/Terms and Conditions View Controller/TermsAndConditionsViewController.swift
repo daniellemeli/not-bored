@@ -12,8 +12,10 @@ class TermsAndConditionsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
     }
 
-
+    @IBAction func closeButtonTapped(_ sender: Any) {
+        self.dismiss(animated: true)
+    }
+    
 }

@@ -9,6 +9,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController" customModule="NotBored" customModuleProvider="target">
             <connections>
+                <outlet property="activityImage" destination="S0H-0e-GII" id="1uJ-J8-QHg"/>
+                <outlet property="activityType" destination="Rh2-8r-G9C" id="UBd-Nk-kLV"/>
+                <outlet property="numberOfParticipants" destination="Ker-Qr-1hU" id="NTs-Y5-C1q"/>
+                <outlet property="priceLabel" destination="mhQ-Y9-bPz" id="LEU-DV-45x"/>
+                <outlet property="titleLabel" destination="S59-Xo-A3N" id="fLm-tI-xQ1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -72,8 +77,8 @@
                         </label>
                     </subviews>
                 </stackView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S59-Xo-A3N">
-                    <rect key="frame" x="178" y="68" width="58.5" height="41"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S59-Xo-A3N">
+                    <rect key="frame" x="24" y="68" width="366" height="41"/>
                     <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="30"/>
                     <color key="textColor" red="0.40000003579999999" green="0.58431375029999999" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <nil key="highlightedColor"/>
@@ -87,6 +92,9 @@
                     <buttonConfiguration key="configuration" style="filled" title="Try Another">
                         <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="24"/>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="tryAnotherButtonAction:" destination="-1" eventType="touchUpInside" id="1Yz-Xw-hJ3"/>
+                    </connections>
                 </button>
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="list.dash" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="S0H-0e-GII">
                     <rect key="frame" x="24" y="551" width="80" height="74"/>
@@ -118,6 +126,8 @@
                 <constraint firstItem="oAi-29-AAc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="ktI-X6-ybD"/>
                 <constraint firstItem="Rh2-8r-G9C" firstAttribute="leading" secondItem="S0H-0e-GII" secondAttribute="trailing" constant="16" id="mXD-8x-iMd"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="X8j-zB-o2Z" secondAttribute="trailing" constant="24" id="msg-pa-jXv"/>
+                <constraint firstItem="S59-Xo-A3N" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="nGL-MK-LkG"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="S59-Xo-A3N" secondAttribute="trailing" constant="24" id="qlZ-wU-gn1"/>
                 <constraint firstItem="27S-w9-P8s" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="u8g-j2-12P"/>
                 <constraint firstItem="S59-Xo-A3N" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24" id="vCb-zl-Hz6"/>
                 <constraint firstItem="S0H-0e-GII" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="wgG-C2-5SB"/>
